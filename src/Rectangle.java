@@ -8,10 +8,10 @@ public class Rectangle extends Polygon {
 	//メソッドメンバ
 	//代入
 	public Rectangle(int x, int y, int width, int height) {
-		Point p = new Point(x, y);
+		this.p = new Point(x, y);
 		this.width = width;
 		this.height = height;
-		super.getInternalAngle(4);
+		super.angle = 4;
 	}
 
 	//出力
