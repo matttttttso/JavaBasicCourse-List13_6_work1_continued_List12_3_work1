@@ -22,7 +22,10 @@ public class Main {
 				System.out.println("内角の和は、" + t1.getInternalAngle(3));
 				break;
 			case 4:
-
+				Rectangle r1 = new Rectangle(0, 0, 100, 50);
+				r1.draw();
+				System.out.println("周囲の長さは、" + r1.perimeter());
+				System.out.println("内角の和は、" + r1.getInternalAngle(4));
 				break;
 			case 44:
 
