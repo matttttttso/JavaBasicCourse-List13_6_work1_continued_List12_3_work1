@@ -8,9 +8,9 @@ public class Square extends Rectangle {
 	}
 
 	//出力
-	public void draw(int x, int y, int width) {
+	public void draw() {
 		System.out.println("[正方形を描画] " +
-				"点(" + x + "," + y + ")を基準として" +
+				"点(" + super.p.getX() + "," + super.p.getY() + ")を基準として" +
 				"幅・高さ" + width + "の正方形");
 	}
 }
