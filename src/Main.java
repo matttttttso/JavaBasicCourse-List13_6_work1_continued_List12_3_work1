@@ -16,7 +16,10 @@ public class Main {
 				System.out.println("周囲の長さは、" + l1.perimeter());
 				break;
 			case 3:
-
+				Triangle t1 = new Triangle(0, 0, 100, 100, 0, 200);
+				t1.draw();
+				System.out.println("周囲の長さは、" + t1.perimeter());
+				System.out.println("内角の和は、" + t1.getInternalAngle(3));
 				break;
 			case 4:
 
