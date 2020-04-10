@@ -28,7 +28,10 @@ public class Main {
 				System.out.println("内角の和は、" + r1.getInternalAngle(4));
 				break;
 			case 44:
-
+				Square s1 = new Square(0, 0, 200);
+				s1.draw();
+				System.out.println("周囲の長さは、" + s1.perimeter());
+				System.out.println("内角の和は、" + s1.getInternalAngle(4));
 				break;
 			default:
 				System.out.println("その値は無効です");
