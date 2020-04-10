@@ -8,14 +8,14 @@ public class Line implements Figure {
 	//引数なし
 	public Line() {
 		//p1(x,y座標)、p2(x,y座標)全て0で初期化する
-		Point p1 = new Point();
-		Point p2 = new Point();
+		this.p1 = new Point();
+		this.p2 = new Point();
 	}
 
 	//引数２つ
 	public Line(int x1, int y1, int x2, int y2) {
-		Point p1 = new Point(x1, y1);
-		Point p2 = new Point(x2, y2);
+		this.p1 = new Point(x1, y1);
+		this.p2 = new Point(x2, y2);
 	}
 
 	//メソッドメンバ
