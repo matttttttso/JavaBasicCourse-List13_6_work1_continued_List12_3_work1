@@ -1,7 +1,7 @@
 //抽象クラスPolygon
 public abstract class Polygon extends Shape {
 	//フィールドメンバ
-	protected int angel;
+	protected int angle;
 
 	//メソッドメンバ
 	public abstract void draw();
