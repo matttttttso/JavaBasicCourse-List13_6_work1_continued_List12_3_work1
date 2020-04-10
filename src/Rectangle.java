@@ -15,9 +15,9 @@ public class Rectangle extends Polygon {
 	}
 
 	//出力
-	public void draw(int x, int y, int width, int height) {
+	public void draw() {
 		System.out.println("[長方形を描画] " +
-				"点(" + x + "," + y + ")を基準として" +
+				"点(" + p.getX() + "," + p.getY() + ")を基準として" +
 				"幅" + width + "、" +
 				"高さ" + height + "の正方形");
 	}
