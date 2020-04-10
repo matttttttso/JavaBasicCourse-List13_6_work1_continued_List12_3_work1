@@ -27,22 +27,4 @@ public class Circle extends Shape {
 	public double perimeter() {
 		return radius * 2 * Math.PI;
 	}
-
-	@Override
-	public void draw(int x1, int y1, int x2, int y2) {
-		// TODO 自動生成されたメソッド・スタブ
-
-	}
-
-	@Override
-	public double perimeter(int x1, int y1, int x2, int y2) {
-		// TODO 自動生成されたメソッド・スタブ
-		return 0;
-	}
-
-	@Override
-	public void draw() {
-		// TODO 自動生成されたメソッド・スタブ
-
-	}
 }
