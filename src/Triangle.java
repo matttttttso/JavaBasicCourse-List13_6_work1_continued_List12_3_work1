@@ -27,28 +27,4 @@ public class Triangle extends Polygon {
 		double length = length1 + length2 + length3;
 		return length;
 	}
-
-	@Override
-	public void draw(int x1, int y1, int x2, int y2) {
-		// TODO 自動生成されたメソッド・スタブ
-
-	}
-
-	@Override
-	public double perimeter(int x1, int y1, int x2, int y2) {
-		// TODO 自動生成されたメソッド・スタブ
-		return 0;
-	}
-
-	@Override
-	public void draw() {
-		// TODO 自動生成されたメソッド・スタブ
-
-	}
-
-	@Override
-	public double perimeter() {
-		// TODO 自動生成されたメソッド・スタブ
-		return 0;
-	}
 }
