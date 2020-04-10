@@ -20,10 +20,10 @@ public class Triangle extends Polygon {
 				"点3(" + p3.getX() + "," + p3.getY() + ")の三角形");
 	}
 
-	public double perimeter(int x1, int y1, int x2, int y2, int x3, int y3) {
-		double length1 = Math.sqrt(Math.pow((x1 - x2), 2) + Math.pow((y1 - y2), 2));
-		double length2 = Math.sqrt(Math.pow((x2 - x3), 2) + Math.pow((y2 - y3), 2));
-		double length3 = Math.sqrt(Math.pow((x3 - x1), 2) + Math.pow((y3 - y1), 2));
+	public double perimeter() {
+		double length1 = Math.sqrt(Math.pow((p2.getX() - p1.getX()), 2) + Math.pow((p2.getY() - p1.getY()), 2));
+		double length2 = Math.sqrt(Math.pow((p3.getX() - p2.getX()), 2) + Math.pow((p3.getY() - p2.getY()), 2));
+		double length3 = Math.sqrt(Math.pow((p1.getX() - p3.getX()), 2) + Math.pow((p1.getY() - p3.getY()), 2));
 		double length = length1 + length2 + length3;
 		return length;
 	}
