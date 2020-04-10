@@ -10,7 +10,7 @@ public class Triangle extends Polygon {
 		this.p1 = new Point(x1, y1);
 		this.p2 = new Point(x2, y2);
 		this.p3 = new Point(x3, y3);
-		super.getInternalAngle(3);
+		super.angle = 3;
 	}
 
 	public void draw() {
