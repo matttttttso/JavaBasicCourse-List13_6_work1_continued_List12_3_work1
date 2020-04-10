@@ -3,8 +3,8 @@ public class Square extends Rectangle {
 
 	//メソッドメンバ
 	//スーパークラスRectangleのコンストラクタを明示的に呼び出す
-	public Square(int x, int y, int width, int height) {
-		super(x, y, width, height);
+	public Square(int x, int y, int width) {
+		super(x, y, width, width);
 	}
 
 	//出力
