@@ -19,27 +19,14 @@ public class Line implements Figure {
 	}
 
 	//メソッドメンバ
-	@Override
-	public void draw(int x1, int y1, int x2, int y2) {
-		System.out.println("[線を描画] " +
-				"始点(" + x1 + "," + y1 + ")から" +
-				"終点(" + x2 + "," + y2 + ")まで");
-	}
-	@Override
-	public double perimeter(int x1, int y1, int x2, int y2) {
-		return Math.sqrt(Math.pow((x2-x1), 2) + Math.pow((y2-y1), 2));
-	}
-
-	@Override
 	public void draw() {
-		// TODO 自動生成されたメソッド・スタブ
-
+		System.out.println("[線を描画] " +
+				"始点(" + p1.getX() + "," + p1.getY() + ")から" +
+				"終点(" + p2.getX() + "," + p2.getY() + ")まで");
 	}
 
-	@Override
 	public double perimeter() {
-		// TODO 自動生成されたメソッド・スタブ
-		return 0;
+		return Math.sqrt(Math.pow((p2.getX() - p1.getX()), 2)
+						+ Math.pow((p2.getY() - p1.getY()), 2));
 	}
-
 }
