@@ -13,11 +13,11 @@ public class Triangle extends Polygon {
 		super.getInternalAngle(3);
 	}
 
-	public void draw(int x1, int y1, int x2, int y2, int x3, int y3) {
+	public void draw() {
 		System.out.println("[三角形を描画] " +
-				"点1(" + x1 + "," + y1 + ")から" +
-				"点2" + x2 + "," + y2 + ")、" +
-				"点3(" + x3 + "," + y3 + ")の三角形");
+				"点1(" + p1.getX() + "," + p1.getY() + ")から" +
+				"点2(" + p2.getX() + "," + p2.getY() + ")、" +
+				"点3(" + p3.getX() + "," + p3.getY() + ")の三角形");
 	}
 
 	public double perimeter(int x1, int y1, int x2, int y2, int x3, int y3) {
